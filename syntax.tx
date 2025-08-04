@@ -1,0 +1,45 @@
+npm install next --verbose
+
+npm install "@vue/cli","@vue/cli-service" --verbose
+npm install "react","react-dom","react-native" --verbose
+npm install expo --verbose
+
+# Build Tools
+npm install esbuild parcel swc lightningcss oxc-parser @parcel/watcher --verbose
+
+# AWS SDK Clients
+npm install @aws-sdk/client-ec2 @aws-sdk/client-lambda @aws-sdk/client-dynamodb @aws-sdk/client-rds @aws-sdk/client-cloudformation @aws-sdk/client-ecs @aws-sdk/client-sqs @aws-sdk/client-sns --verbose
+
+# Google Cloud
+npm install @google-cloud/bigquery @google-cloud/compute @google-cloud/pubsub @google-cloud/functions-framework --verbose
+
+# Azure
+npm install @azure/cosmos @azure/service-bus @azure/functions --verbose
+
+# UI Libraries
+npm install @mui/x-data-grid @ant-design/icons semantic-ui-react primereact @mantine/core --verbose
+
+# 3D and Visualization
+npm install @react-three/fiber @react-three/drei babylonjs d3 echarts plotly.js vis-network --verbose --legacy-peer-deps --force
+
+# Image Processing
+npm install sharp ffmpeg-static @ffmpeg/ffmpeg canvas jimp imagemin node-canvas gm --verbose
+
+# Databases
+npm install sequelize mysql2 redis mongodb sqlite3 @prisma/client --verbose
+
+# Testing Tools
+npm install @testing-library/react @testing-library/jest-dom @testing-library/user-event enzyme jsdom happy-dom --verbose npm install clinic autocannon 0x --verbose  --legacy-peer-deps --force
+
+# Documentation
+npm install typedoc jsdoc @compodoc/compodoc --verbose --legacy-peer-deps --force
+
+# Performance Tools
+npm install clinic autocannon 0x --verbose  --legacy-peer-deps --force
+
+# HTTP and API
+npm install node-fetch got superagent request fastify koa --verbose  --legacy-peer-deps --force
+
+# Build and Task Runners
+npm install lerna nx gulp grunt turbo pm2 concurrently rimraf del-cli cpx onchange chokidar-cli --verbose  --legacy-peer-deps --force
+
