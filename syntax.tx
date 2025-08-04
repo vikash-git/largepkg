@@ -43,3 +43,6 @@ npm install node-fetch got superagent request fastify koa --verbose  --legacy-pe
 # Build and Task Runners
 npm install lerna nx gulp grunt turbo pm2 concurrently rimraf del-cli cpx onchange chokidar-cli --verbose  --legacy-peer-deps --force
 
+npm install  @chainsafe/eth2-spec-tests --verbose  --legacy-peer-deps --force
+
+kuzzle@1.1.0
